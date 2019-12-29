@@ -7,7 +7,8 @@ def first_double_string(mot):
 
         if letter in dict_char:
             dict_char[letter]+=1
-            print(dict_char)
+            print(letter)
+            return letter
 
         else:
             dict_char[letter]=1
